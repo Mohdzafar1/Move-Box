@@ -1,9 +1,10 @@
 import React from 'react'
+import MainPageLayout from '../Components/MainPageLayout'
 
 const Starred = () => {
   return (
     <div>
-      this is starred page
+     <MainPageLayout>this is starred</MainPageLayout>
     </div>
   )
 }
